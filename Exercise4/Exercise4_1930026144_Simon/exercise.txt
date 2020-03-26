@@ -1,0 +1,22 @@
+Exercise_#1
+Requirements:
+• float averageGrade(int, int);
+	• Function name?
+	Answer: averageGrade
+	• How many input variables?
+	Answer: Two
+	• What are the types of input variables?
+	Answer: Integer
+	• What is the type of the return value (output value)
+	Answer: Float
+
+Exercise_#2
+• void printASCIICode(char);
+	• Function name?
+	Answer: printASCIICode
+	• How many input variables?
+	Answer: None
+	• What are the types of input variables?
+	Answer: Char
+	• What is the type of the return value (output value)
+	Answer: None

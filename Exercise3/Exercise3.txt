@@ -1,0 +1,10 @@
+﻿• What is the value of a[2] if we have the following
+initialization of an array:
+– int a[5] = {2, 4, 6, 8, 10}
+•Answer: a[2] = 6;
+
+
+• What is the value of a[2][1] if we have the following
+initialization of an array
+– int a[2][3] = {2, 4, 6, 8, 10, 12}
+•Answer: a[2][1] is random; It is overflowed. And the arrayread out of bounds.
