@@ -1,0 +1,75 @@
+// Programmer: Simon
+// Student ID: 1930026144
+// Date: 2020.03.29
+// Task no: Week_7_Exercise
+
+
+1. Exercise 1
+// Requirement
+• Are the following initialization correct?Are the following initialization correct?
+– char str[10] = {‘y’, ‘e’, ‘s’};  --> Yes
+– char str[10] = “Good Morning”;  --> Yes
+– char str = “Hi”; --> No
+– char str[] = ‘Good’;  --> Yes
+– char str[] = “O”;  --> Yes
+
+2. Exercise 2
+//Retuirement
+• What is the output of the following code
+```exercise2.c
+#include <stdio.h>
+int main() {
+	char str[15] = "unix and c";
+    
+	printf("%s", str);
+	printf("\n");
+    	str[6] = '\0';
+    	printf("%s", str);
+    	printf("\n");
+    	str[2] = '%';
+    	printf("%s", str);
+    	printf("\n");
+    	return 0;
+}
+/* Answer */
+unix and c
+unix a
+un%x a
+
+3. Exercise 3
+//Require
+What is the output of the following code?
+#include <stdio.h>
+int main() {
+	char lName[81], fName[81];
+    	int id_num;
+    	puts("Enter the last name, firstname, ID number separated by spaces ");
+    	puts("then press Enter \n");
+    	scanf("%s %s %d", lName, fName, &id_num);
+    	printf("3 items entered : %s %s %d\n", fName, lName, id_num);
+	
+	return 0;
+}
+//Answer
+3 items entered : Towey Tony 23456
+
+3. Exercise 4
+//Requirement
+What is the output of the code?
+```exercise 3.c
+#include <stdio.h>
+#include <string.h>
+int main() {
+	char name1[16] = "Frans Coenen";
+    	char name2[16] = {'F', 'r', 'a', 'n', 's', ',', 'C', 'o', 'e', 'n', 'e', 'n'};
+    	char name3[16] = {70, 114, 97, 110, 115, 32, 67, 111, 101, 110, 101, 110, 0};
+    	printf("name1 = %s\n", name1);
+    	printf("name2 = %s\n", name2);
+    	printf("name3 = %s\n", name3);    
+    
+    	return 0;
+}
+/* Output */
+name1 = Frans Coenen
+name2 = Frans Coenen
+name3 = Frans Coenen
