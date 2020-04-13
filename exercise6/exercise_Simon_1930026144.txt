@@ -1,0 +1,6 @@
+Class Exercise #1
+Answer: The value of number is 3.
+Class Exercise #2
+Answer: The value of number is 2.
+Class Exercise #3
+Answer: 
