@@ -1,0 +1,29 @@
+Exercise #1:
+emp2.Name = Christofer;
+emp2.Department = Science;
+emp2.Salary = 32000.70;
+
+Exercise $2:
+dist1.feet = dist1.inch * 0.08333;
+dist2.feet = dist2.inch * 0.08333;
+
+Exercise #3:
+- 1. 
+struct point {
+    int x;
+    int y;
+};
+- 2. 
+struct {
+    int x;
+    int y;
+}p1;
+- 3. 
+struct point {
+    int x;
+    int y;
+}p1;
+
+Exercise #4:
+- yes; struct point a = {2,3};
+- yes

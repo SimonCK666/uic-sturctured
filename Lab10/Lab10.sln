@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "task1", "task1\task1.vcxproj", "{7CE0786A-E5EF-4989-92E4-C4AFF3BCD245}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "task2", "task2\task2.vcxproj", "{0616944D-285A-482D-8684-71C8602823EA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "task3", "task3\task3.vcxproj", "{4D732986-F409-49B2-8770-1D3ACD6C8029}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7CE0786A-E5EF-4989-92E4-C4AFF3BCD245}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7CE0786A-E5EF-4989-92E4-C4AFF3BCD245}.Debug|Win32.Build.0 = Debug|Win32
+		{7CE0786A-E5EF-4989-92E4-C4AFF3BCD245}.Release|Win32.ActiveCfg = Release|Win32
+		{7CE0786A-E5EF-4989-92E4-C4AFF3BCD245}.Release|Win32.Build.0 = Release|Win32
+		{0616944D-285A-482D-8684-71C8602823EA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0616944D-285A-482D-8684-71C8602823EA}.Debug|Win32.Build.0 = Debug|Win32
+		{0616944D-285A-482D-8684-71C8602823EA}.Release|Win32.ActiveCfg = Release|Win32
+		{0616944D-285A-482D-8684-71C8602823EA}.Release|Win32.Build.0 = Release|Win32
+		{4D732986-F409-49B2-8770-1D3ACD6C8029}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4D732986-F409-49B2-8770-1D3ACD6C8029}.Debug|Win32.Build.0 = Debug|Win32
+		{4D732986-F409-49B2-8770-1D3ACD6C8029}.Release|Win32.ActiveCfg = Release|Win32
+		{4D732986-F409-49B2-8770-1D3ACD6C8029}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

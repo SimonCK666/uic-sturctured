@@ -1,0 +1,22 @@
+Class Exercises
+1. base case: if(n > str.length) ( return 0; )
+    recursive step: return calculateSum(n) + calculateSum(n + 1);
+2. base case: 
+    int i,j;
+    if(s<t){
+        i = s;
+        j = t+1;
+        while(1){
+            do i++;
+            while(!(k[s]>=k[i] || i==t));       
+            do j--;
+            while(!(k[s]<=k[j] || j==s));        
+            if(i<j)
+                swap(&k[i],&k[j]);            
+            else
+                break;
+        }
+    recursive step: swap(&k[s],&k[j]);                
+        quicksort(k,s,j-1);                    
+        quicksort(k,j+1,t); 
+
