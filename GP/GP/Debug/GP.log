@@ -1,0 +1,18 @@
+﻿Build started 2020/5/17 16:36:46.
+     1>Project "E:\uic_structured\GP\GP\GP.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\GP.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         D:\vs2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\uic_structured\GP\Debug\GP.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\GP.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\uic_structured\GP\Debug\GP.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\uic_structured\GP\Debug\GP.lib" /MACHINE:X86 Debug\GP.exe.embed.manifest.res
+         Debug\GP.obj
+     1>GP.obj : error LNK2019: unresolved external symbol "void __cdecl function_list(struct Student *,int)" (?function_list@@YAXPAUStudent@@H@Z) referenced in function _main
+     1>E:\uic_structured\GP\Debug\GP.exe : fatal error LNK1120: 1 unresolved externals
+     1>Done Building Project "E:\uic_structured\GP\GP\GP.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.20

@@ -1,0 +1,6 @@
+Name 		ID 		C 	English
+Tony 		1900000000 	A	B
+Kitty 		1932000000	B	A
+Rain 		1961111111 	C	F
+Hello 		1934055555	A	C
+Trump 		1952222222	D	E

@@ -38,7 +38,7 @@ int fileCopy(char *destFileName, char *resFileName) {
     char str;
     FILE *rfp;
     FILE *dfp;
-    rfp = fopen(resFileName, "w+");
+    rfp = fopen(resFileName, "r");
     dfp = fopen(destFileName, "w+");
     
     if (rfp == NULL)
@@ -53,11 +53,8 @@ int fileCopy(char *destFileName, char *resFileName) {
         fputc(str, dfp);
     }
     
-	// Close the files
     fclose(rfp);
     fclose(dfp);
-
-	// free the pointers
     rfp = NULL;
     dfp = NULL;
     

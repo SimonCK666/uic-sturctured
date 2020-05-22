@@ -5,7 +5,7 @@
 * @created 2020-05-11T09:41:23.031Z+08:00
 * @copyright None 
 * None
-* @last-modified 2020-05-11T09:58:35.225Z+08:00
+* @last-modified 2020-05-11T17:53:55.591Z+08:00
 */
 
 #include <stdio.h>
@@ -36,7 +36,7 @@ int fileCopy(char *destFileName, char *resFileName) {
     char str;
     FILE *rfp;
     FILE *dfp;
-    rfp = fopen(resFileName, "w+");
+    rfp = fopen(resFileName, "r");
     dfp = fopen(destFileName, "w+");
     
     if (rfp == NULL)
