@@ -1,7 +1,12 @@
 /**
 * task3.c
-* @author bulbasaur
+* @author Simon
 * @description 
+Write a program to read students’ names and scores from a file student.txt, and store the students’
+information in a linked list where the elements are stored in descending order. The program then
+will print out the students’ information in the linked list from the head to the end. For example, if
+the information in the file is as follows (Note: there is no limit to the number of students)
+
 * @created 2020-05-16T11:01:35.774Z+08:00
 * @copyright None 
 * None
